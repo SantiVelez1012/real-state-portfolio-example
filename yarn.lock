@@ -2209,6 +2209,11 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lucide-preact@^0.454.0:
+  version "0.454.0"
+  resolved "https://registry.yarnpkg.com/lucide-preact/-/lucide-preact-0.454.0.tgz#9c3f6e6f22910ba7abf9c98ec89938bb23074404"
+  integrity sha512-tKSbdAmxlq2CH+jVojqcXC1dp1PfXTdTJJJ0WKhjtOTAZd0zU5EGqKo+2/ag8kuinahQhuOL1nqY4zQhsv6k7Q==
+
 magic-string@0.30.5:
   version "0.30.5"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.5.tgz#1994d980bd1c8835dc6e78db7cbd4ae4f24746f9"
