@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className="menu">
       <nav className="navbar justify-center flex w-[200px] md:w-[700px] self-center mx-auto">
-        <a href="/home">
+        <a className="mr-3" href="/">
           <figure className="navbar-icon">
             <img src="./navbar-icon.svg" alt="icon" className="w-[32px]" />
           </figure>
