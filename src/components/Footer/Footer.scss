@@ -1,0 +1,43 @@
+@use '../../global.scss';
+
+footer {
+
+    background-color: var(--lighter-green);
+
+    // position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding: 100px 0;
+    color: var(--dark-green-text-color);
+
+}
+
+.footer {
+
+
+    &-icon {
+        margin-bottom: 15px;
+    }
+    &-info {
+
+        hr{
+            border-top: 1px solid var(--dark-green);
+        }
+        &-section {
+            margin-bottom: 50px;
+            &-title {
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 40px;
+                margin-bottom: 5px;
+            }
+
+            &-description {
+                font-size: 26px;
+                line-height: 30px;
+            }
+        }
+    }
+}
