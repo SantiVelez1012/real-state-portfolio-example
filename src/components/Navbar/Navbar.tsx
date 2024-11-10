@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isMenuDisplayed, setIsMenuDisplayed] = useState(false);
 
   return (
-    <div className="menu">
+    <div className="menu z-20">
       <nav className="navbar justify-center flex w-[200px] md:w-[700px] self-center mx-auto">
         <a className="mr-3" href="/">
           <figure className="navbar-icon">

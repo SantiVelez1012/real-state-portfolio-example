@@ -38,8 +38,8 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     return (
         <div className="slider relative w-full my-20 mx-auto overflow-hidden rounded-xl shadow-xl">
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-gray-900/50 to-transparent z-50"></div>
-                <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-gray-900/50 to-transparent z-50"></div>
+                <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-gray-900/50 to-transparent z-10"></div>
+                <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-gray-900/50 to-transparent z-10"></div>
             </div>
             <div
                 className={`flex transition-transform duration-500 ease-in-out ${isAnimating
