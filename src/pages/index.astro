@@ -1,17 +1,30 @@
 ---
-import './index.scss';
+import "./index.scss";
 import BaseLayout from "../layouts/BaseLayout/BaseLayout.astro";
+import { MoveDown } from "lucide-preact";
+import ImgCommonCarousel from "../components/ImgCarousel/ImgCommonCarousel";
+import {firstCarouselArray} from '../core/const/imgs-arrays';
 
 ---
 
 <BaseLayout>
-
 	<div class="rounded-xl m-5 heading-section">
-		
-		<h1 class="text-xl heading-title" >
-			Del río emana la vida.
-		</h1>
-		
+		<h1 class="text-xl heading-title">Del río emana la vida.</h1>
+
+		<div class="heading-icon">
+			<MoveDown size={70} color="#E8EE7F" />
+		</div>
 	</div>
 
+	<div class="mx-10 sm:mx-20 second-section">
+		<h3 class="second-section-upper-text">Visita nuestro apto modelo!</h3>
+
+		<h2 class="second-section-title">
+			Apartamentos desde 60m2 con increibles vistas
+		</h2>
+
+		<div class="second-section-carousel">
+			<ImgCommonCarousel client:load images={firstCarouselArray} />
+		</div>
+	</div>
 </BaseLayout>

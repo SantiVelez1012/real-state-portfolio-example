@@ -1,0 +1,13 @@
+@use '../../global.scss';
+
+.slider {
+    background: rgb(0, 46, 43);
+    background: radial-gradient(circle, rgba(0, 46, 43, 1) 50%, rgba(0, 46, 43, 1) 100%);
+}
+
+.slider-arrow {
+
+    color: var(--dark-green);
+    background-color: var(--light-green);
+
+}
